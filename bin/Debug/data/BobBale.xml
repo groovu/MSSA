@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>2</Id>
+  <Fname>Bob</Fname>
+  <Lname>Bale</Lname>
+  <Address>Bushing Street</Address>
+  <MonthOfAdmission>Feburary</MonthOfAdmission>
+  <Grade>Sophmore</Grade>
+</Student>
