@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="566.321" Width="670.943">
     <Grid>
-        <DataGrid x:Name="LibDataGrid" HorizontalAlignment="Left" Height="176" VerticalAlignment="Top" Width="772" Margin="10,10,0,0" SelectionChanged="DataGrid_SelectionChanged"/>
+        <DataGrid x:Name="LibDataGrid" HorizontalAlignment="Left" Height="176" VerticalAlignment="Top" Width="635" Margin="10,10,0,0" SelectionChanged="DataGrid_SelectionChanged"/>
         <Button Content="Add Book" HorizontalAlignment="Left" Margin="102,359,0,0" VerticalAlignment="Top" Width="75" Click="addBookUserInput"/>
         <TextBox x:Name="inputName" HorizontalAlignment="Left" Height="23" Margin="57,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="inputISBN" HorizontalAlignment="Left" Height="23" Margin="57,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
@@ -19,7 +19,7 @@
         <Label Content="Image" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top"/>
         <Label Content="On Display" HorizontalAlignment="Left" Margin="224,205,0,0" VerticalAlignment="Top"/>
         <Label x:Name="OnDisplayLabel" Content="BookName on Display" HorizontalAlignment="Left" Margin="212,251,0,0" VerticalAlignment="Top"/>
-        <Image x:Name="displayImgBox" HorizontalAlignment="Left" Height="299" Margin="344,205,0,0" VerticalAlignment="Top" Width="301"/>
+        <Image x:Name="displayImgBox" HorizontalAlignment="Left" Height="299" Margin="344,205,0,0" VerticalAlignment="Top" Width="301" Source="wip.png"/>
 
     </Grid>
 </Window>

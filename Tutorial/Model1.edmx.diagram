@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="450c3de556d44bd9b121dd76a3618f62" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Application" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Applications" Width="1.5" PointX="11.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Membership" Width="1.5" PointX="17" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Paths" Width="1.5" PointX="14" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_PersonalizationAllUsers" Width="1.5" PointX="16.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_PersonalizationPerUser" Width="1.5" PointX="16.25" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Profile" Width="1.5" PointX="21.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Roles" Width="1.5" PointX="14" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_Users" Width="1.5" PointX="19.25" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.aspnet_WebEvent_Events" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Grade" Width="1.5" PointX="12" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Membership" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Parent" Width="1.5" PointX="7.5" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Profile" Width="1.5" PointX="7.5" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Role" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Student" Width="1.5" PointX="9.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Subject" Width="1.5" PointX="9.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.Teacher" Width="1.5" PointX="7.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolGradesDBModel.User" Width="1.5" PointX="5.25" PointY="9.875" IsExpanded="true" />
+        <AssociationConnector Association="SchoolGradesDBModel.MembershipApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.RoleApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.UserApplication" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Me__Appli__151B244E" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Pa__Appli__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Ro__Appli__1BC821DD" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Us__Appli__1CBC4616" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Me__UserI__160F4887" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Pe__PathI__17F790F9" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Pe__PathI__18EBB532" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Pe__UserI__19DFD96B" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK__aspnet_Pr__UserI__1AD3FDA4" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_StudentGrade" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_SubjectGrade" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.MembershipUser" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_Parents_diameterUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.UserProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_Students_diameterUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_TeacherStudent" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.FK_Teachers_diameterUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.ParentStudent" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolGradesDBModel.UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
