@@ -70,6 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Elements.html" />
+    <Content Include="Form.html" />
+    <Content Include="FormStyle.css" />
     <Content Include="home.html" />
     <Content Include="JavaScriptPage.html" />
     <Content Include="peanut.gif" />

@@ -10,7 +10,62 @@
 
         alert("This is an alert.")
 
+        var x;
+        let int = 10
+        let string = "10";
+        if (int !== string)
+            document.write("int 10 is not equal to '10'.")
     </script>
+    <br />
+    <script>
+        var now = new Date();
+
+        var dayOfWeek = now.getDay(); // Sunday - Saturday : 0 - 6
+
+        if (dayOfWeek == 5) {
+            document.write("Have a nice weekend!");
+        }
+        else {
+            document.write("Have a nice day!");
+        }
+    </script>
+    <br />
+    <script>
+        var d = new Date();
+
+
+
+        switch (d.getDay()) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                document.write("It is a weekday.");
+                break;
+            case 0:
+            case 6:
+                document.write("It is a weekend day.");
+                break;
+            default:
+                document.write("Enjoy every day of your life.");
+        }
+    </script>
+
+    <select id="carMftr" name="carManufacturer">
+        <optgroup label="Group 1">
+            <option value="G1 v1">
+            </option>
+            <option value="G1 v2">
+            </option>
+        </optgroup>
+        <optgroup label="Group 2">
+            <option value="G2 v1">
+            </option>
+            <option value="G2 v2">
+            </option>
+        </optgroup>
+    </select>
 
 </body>
 </html>
